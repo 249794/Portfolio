@@ -1,0 +1,233 @@
+/* Header */
+body {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+.container {
+	position: relative;
+  background-image: url("Img/back.jpg");
+  width: 100%;
+	min-height: 700px;
+  opacity: 0.8;
+}
+.content{
+  background-color: #2f353f;
+  position: absolute;
+  width: 68%;
+  height: 100%;
+  margin-left: 15%;
+  margin-right: auto;
+  border-right: solid 2px cyan;
+  border-left: solid 2px cyan;
+}
+.nav img{
+  margin-top: 10px;
+	margin-left: 10px;
+	height: 100px;
+	display: inline-block;
+}
+.nav {
+	display: flex;
+	font-size: 25px;
+  background-color: #2f353f;
+  height: 120px;
+}
+.navilist {
+	list-style-type: none;
+	width: 100%;
+	display: flex;
+	text-align: center;
+}
+.navilink {
+  text-align: center;
+  background-color: #e1e9f7;
+  margin: 0px 30px;
+  height: 30px;
+  padding: 5px 5px;
+  display: block;
+  border-radius: 3px;
+  border: cyan 2px solid;
+  display: block;
+}
+.nav ul li a{
+  text-decoration: none;
+  color: #e21b1b;
+  display: block;
+}
+.accountnav{
+ text-align: center;
+  background-color: #e1e9f7;
+  margin: 30px 30px;
+  height: 30px;
+  padding: 5px 5px;
+  display: block;
+  border-radius: 3px;
+  border: cyan 2px solid;
+  display: block;
+}
+.accountnav a{
+  text-decoration: none;
+  color: #e21b1b;
+}
+/*footer*/
+footer {
+  position: absolute;
+  width: 100%;
+  min-height: 60px;
+  background-color: #2f353f;
+}
+
+.footer-content{
+  display: block;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+}
+.footer-content p{
+  color: #e1e9f7;
+}
+/*Index*/
+.home{
+  text-align: center;
+  color: white;
+  font-style: bold;
+}
+.home img{
+  border: solid 2px green;
+  border-radius: 60px;
+  margin-top: 20px;
+  height: 425px;
+  width: 300px;
+}
+.home p{
+ font-size: 20px;
+}
+/*Over mij*/
+.overmij{
+  text-align: center;
+  color: white;
+  font-style: bold;
+  background-color: #7d7b84;
+  padding: 20px 20px;
+  border-bottom: cyan 2px solid;
+  border-top: cyan 2px solid;
+}
+.overmij p{
+  font-size: 20px;
+}
+.overmij img{
+  border: solid 2px green;
+  box-shadow: 6px 6px #e5eefc;
+}
+/*Contact*/
+
+
+.Contact form{
+    width: 60%;
+    margin: 20px auto;
+}
+.Contact h1{
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.Contact form div span{
+    padding-left: 2px;
+    color: red;
+}
+.Contact form div label{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.Contact form div{
+    padding: 10px 0;
+}
+.Contact form div input, .Contact form div textarea{
+    width: calc(100% - 10px);
+    display: block;
+    border-radius: 10px;
+    border: none;
+    box-shadow: none;
+    font-size: 20px;
+    background-color: white;
+    margin-top: 2px;
+}
+.Contact form div input{
+    padding: 5px;
+}
+.Contact form div textarea{
+    resize: none;
+}
+.Contact form input[type = "submit"]{
+    border-radius: 10px;
+    border: none;
+    box-shadow: none;
+    font-size: 25px;
+    background-color: #e1e9f7;
+    color: #e21b1b;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer; 
+}
+/*Login*/
+.login form{
+    width: 60%;
+    margin: 20px auto;
+}
+.login h1{
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.login p{
+  text-align: center;
+  color: white;
+}
+.login form input{
+    width: calc(100% - 10px);
+    display: block;
+    border-radius: 10px;
+    border: none;
+    box-shadow: none;
+    font-size: 20px;
+    background-color: white;
+    margin-top: 2px;
+
+}
+
+.login form input{
+    padding: 5px;
+}
+.login form input[type = "submit"]{
+    border-radius: 10px;
+    border: none;
+    box-shadow: none;
+    font-size: 25px;
+    background-color: #e1e9f7;
+    color: #e21b1b;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer; 
+}
+/*Skills*/
+  .skills{
+    text-align: center;
+    color: white;
+    display: block;
+    width: 100%
+    border-bottom: 2px cyan solid;
+    height: auto;
+}
+  .paneel{
+  background-color: #e0eaf9;
+  padding-bottom: 20px; 
+  }
+  .paneel td{
+    border: #7d7b84 solid 2px; 
+  }
